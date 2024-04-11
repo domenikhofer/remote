@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'TheSans';
+    font-weight: normal;
+    src: url('fonts/TheSans.eot?#iefix') format('embedded-opentype'), 
+         url('fonts/TheSans.woff') format('woff'), 
+         url('fonts/TheSans.ttf')  format('truetype'),
+         url('fonts/TheSans.svg#svgFontName') format('svg');
+    }
+
+html, body{   
+height:1000px;
+width: 100%;    
+margin:0;
+background-image:url(img/wood.jpg);
+overflow-x: hidden;
+    
+}
+
+#text{
+height: 100%;
+width:100%;    
+font-family: 'Bangers', cursive;
+   
+position: fixed;   
+color: #001155;
+text-align: center;
+background-color: rgba(255, 255, 255, 0.85);
+z-index: 2;    
+}
+
+#help{
+position: absolute; 
+top:150px;
+left:650px;    
+text-align: center;    
+font-family: 'Bangers', cursive;
+color: #11aaff;        
+width:30px;
+height:30px;    
+font-size: 30px;    
+border-style: solid;
+border-color: #11aaff;
+border-radius: 20px;
+ cursor: pointer; 
+cursor: hand;   
+opacity: 0.5;
+z-index: 2;    
+
+}
+
+#help:hover{
+color: #ffffff;    
+border-style: solid;
+border-color: #11aaff;
+background-color: #11aaff;   
+opacity: 1;
+}
+
+#outro{
+display: none;
+position: fixed;
+z-index: 5;
+width: 100%;
+height:100%;
+background-color: white;
+font-family: 'Bangers', cursive;
+text-align: center;    
+}
+
+
+h1{
+color: #11aaff;    
+font-size:  5vw;
+line-height: 0px;
+    
+}
+
+h2{
+color: #11aaff;    
+font-size: 3vw;
+}
+
+pre{
+font-size: 2vw;     
+font-family: 'Passion One', cursive;
+z-index: 3;    
+}
+
+#los{    
+color: #11aaff;    
+margin: auto;    
+width:15%;
+height:5%;
+line-height: normal;    
+font-size: 2vw;    
+border-style: solid;
+border-color: #11aaff;
+border-radius: 20px;
+cursor: pointer; 
+cursor: hand;   
+}
+
+#los:hover{    
+color: #ffffff;    
+margin: auto;    
+width:15%;
+height:5%;
+line-height: normal;    
+font-size: 2vw;    
+border-style: solid;
+border-color: #11aaff;
+border-radius: 20px;
+background-color: #11aaff;    
+   
+}
+
+#mark{
+height:50px;
+width:50px;
+background-color: deepskyblue;
+display: none;
+position: fixed;
+z-index: 1;
+border-radius: 30px;    
+}
+
+
+
+#cup{
+background-image: url(img/cup.png);
+background-size: contain;
+width:500px;
+height:500px;
+position: absolute;
+top:50%;
+left:70%;
+z-index: 3;    
+}
+
+#book{
+width: 800px;
+height:800px;
+background-image: url(img/book.png);
+position: absolute;
+left: 100px;
+top:50px;
+z-index: 1;    
+}
+
+#flowers{
+left:800px;
+top:-500px;    
+width:1000px;
+height:1000px;
+background-image: url(img/flowers.png);
+position: absolute;
+    
+
+}
+
+#hand{
+width:200px;
+height:200px;
+background-image: url(img/hand.jpg);
+position: fixed;
+bottom:30px;
+display: block;    
+left:65%;  
+}
+
+
+#canvas{ 
+position: absolute;    
+height:980px;    
+width:540px;
+   
+
+}
+
+/*input{
+height:40px;
+width:250px;    
+position: absolute;
+top:600px;
+left:375px;  
+z-index: 3;
+font-size: 2vw;     
+font-family: 'Passion One', cursive;    
+}*/
+
+
+/*#color{
+background-color: rgba(255, 0, 0, 0.25);    
+top:51px;
+left:51px;    
+position: absolute;    
+width:163px;
+height: 856px;
+z-index: 3;
+border-radius: 12px;    
+
+}*/
+
+#content{
+position: relative;
+
+}
+
+#container{
+position:absolute;   
+width:350px;
+top:300px;
+left:310px;
+z-index: 1;    
+}
+
+#container2{
+position:absolute;   
+top:480px;
+left:350px;
+z-index: 1;    
+}
+
+#save{
+position: absolute;
+top: 750px;
+left: 400px;    
+width:215px;
+height:68px;    
+background-image: url(img/download.png);
+background-size: contain;
+background-repeat: no-repeat;
+z-index: 1;    
+opacity: 0.7;
+cursor: pointer; 
+cursor: hand;     
+}
+
+#save:hover{
+opacity: 1;   
+}
+
+
